@@ -1,65 +1,66 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="/site.css" type="text/css" />
-<link rel="stylesheet" href="eng.css" type="text/css" />
-<title>Harold Miao's Homepage</title>
-</head>
-<body>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-    var pageTracker = _gat._getTracker("UA-1220141-1");
-    pageTracker._setDomainName(".miaohong.org");
-    pageTracker._trackPageview();
-} catch(err) {}</script>
-<div id="layout-content">
-<div id="toptitle">
-<h1>Harold's Homepage</h1>
-</div>
-<p>I (Harold Miao) am a seasoned C++ programmer in finance industry, Hong Kong.
-I am the author of <a href="http://code.google.com/p/muduo">muduo network library</a>,
-an open source C++ multithreaded non-blocking network library based on Reactor pattern.</p>
-<p>More about me:</p>
-<ul>
-<li><p><a href="http://github.com/chenshuo">Code on GitHub</a>,
-other toy projects on Google Code <a href="http://code.google.com/p/evproto/">evproto</a> 
-and <a href="http://code.google.com/p/evproto2/">evproto2</a></p>
-</li>
-<li><p><a href="http://blog.csdn.net/Solstice">Blog in Chinese</a>, 
-an <a href="http://www.cnblogs.com/solstice">identical blog with better formatting</a>.</p>
-</li>
-<li><p><a href="http://muduo.chenshuo.com">Blog about muduo in English</a> </p>
-</li>
-<li><p><a href="http://www.slideshare.net/chenshuo/presentations">Slides on slideshare.net</a> </p>
-</li>
-<li><p><a href="http://twitter.com/bnu_chenshuo">follow me on Twitter</a>, and <a href="http://weibo.com/giantchen">Weibo</a>.</p>
-</li>
-<li><p><a href="book/">《Linux 多线程服务端编程：使用 muduo C++ 网络库》</a></p>
-</li>
-<li><p><a href="http://github.com/chenshuo/documents/downloads">Tech writings in Chinese</a> ：
-<a href="pdf/CppPractice.pdf">《C++ 工程实践经验谈》</a> 
-<a href="pdf/MuduoManual.pdf">《Muduo网络库使用手册》</a> 
-<a href="pdf/LearnCpp.pdf">《从〈C++ Primer 第四版〉入手学习C++》</a> 
-<a href="pdf/LearningNetworkProgramming.pdf">《网络编程学习经验》</a> 
-<a href="pdf/dtor_meets_mt.pdf">《当析构函数遇到多线程──C++ 中线程安全的对象回调》</a> </p>
-</li>
-<li><p><a href="http://www.youtube.com/playlist?list=PL6C2B76D35AD642D8">2010年《分布式系统的工程化开发方法》演讲</a> </p>
-</li>
-<li><p>On <a href="http://www.douban.com/people/solstice/">Douban</a> : 
-<a href="http://book.douban.com/subject/1477390/">《代码大全（第2版）》</a> 
-<a href="http://book.douban.com/subject/4232777/">《C++ 编程规范》</a> 
-<a href="http://book.douban.com/subject/10944985/">《C++ Primer 第4版 评注版》</a>
-<a href="http://book.douban.com/subject/1215823/">《C# Primer中文版》</a> </p>
-</li>
-<li><p>email: miaohonghit at gmail dot com</p>
-</li>
-</ul>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>姚伟斌的个人主页</title>
+        <link rel="stylesheet" href="index.css" type="text/css" />
+    </head>
+  <script type="application/x-javascript">
+    function draw(){
+	  var canvas = document.getElementById('tutorial');
+	  if (canvas.getContext){
+		var ctx = canvas.getContext('2d');
 
-</body>
+		ctx.beginPath();
+		ctx.arc(75,75,50,0,Math.PI*2,true); // Outer circle
+		ctx.moveTo(110,75);
+		ctx.arc(75,75,35,0,Math.PI,false);   // Mouth (clockwise)
+		ctx.moveTo(65,65);
+		ctx.arc(60,65,5,0,Math.PI*2,true);  // Left eye
+		ctx.moveTo(95,65);
+		ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye
+		ctx.stroke();
+	  }
+	}
+	</script>
+    <body onload="draw();">
+	
+        版权 © 2010 姚伟斌(yaoweibin AT gmail.com，<a href="http://yaoweibin2008.blog.163.com/"> 博客 </a>)
+        <hr />
+        <div id="me">
+		<canvas id="tutorial" width="150" height="150"></canvas>
+            我是一个普通的IT工程师，对网络、linux、嵌入式略知一二，兴趣很广，时常苦于不求甚解，学艺不精。
+            做这个主页，一方面是为了记录生活，另外也是希望这些东西对各位有些用处。如果针对本网站有任何问题，可以邮件联系我。
+        </div>
+        <div id="think">
+        </div>
+        <div id="hobby">
+        </div>
+        <div id="doc"> 
+            <h3>文档</h3>
+            <ul type="disc">
+				<li><a href="maindoc/mod_jk.pdf">Apache与tomcat的连接器mod_jk模块源代码分析</a></li>
+				<li><a href="maindoc/Varnish_cache.pdf">Varnish文件缓存的源代码分析</a></li>
+                <li><a href="maindoc/nginx-modules-guide-cn.pdf">Emiller的Nginx模块开发指南</a></li>                
+            </ul>
+        </div>
+		<div id="creation"> 
+            <h3>作品</h3>
+            <ul type="misc">				
+				<li><a href="http://code.google.com/p/substitutions4nginx/">Nginx的substitutions模块</a></li>  
+				<li><a href="http://code.google.com/p/nginx-upstream-jvm-route/">Nginx的jvm_route模块(session sticky)</a></li>
+				<li><a href="http://code.google.com/p/nginx-upstream-carp/">Nginx的carp模块(遵循carp协议)</a></li>	
+				<li><a href="http://github.com/yaoweibin/nginx_tcp_proxy_module">Nginx的tcp_proxy模块</a></li>	
+				<li><a href="http://github.com/yaoweibin/nginx_ajp_module">Nginx的ajp模块</a></li>	
+				<li><a href="http://github.com/yaoweibin/nginx_limit_access_module">Nginx的limit_access模块</a></li>
+				<li><a href="http://github.com/yaoweibin/nginx_syslog_patch">Nginx的syslog_patch</a></li>
+				<li><a href="http://github.com/yaoweibin/ngx_http_consistent_hash">Nginx的consitent hash模块</a></li>
+				<li><a href="http://github.com/yaoweibin/nginx_upstream_check_module">Nginx的健康检查模块</a></li>
+				<li><a href="http://github.com/yaoweibin/nginx_cross_origin_module">Nginx的cross origin模块</a></li>
+				<li><a href="http://github.com/yaoweibin/squid_gzip">Squid-2.7 gzip on the fly</a></li>
+            </ul>
+        </div>
+		<script language=JavaScript>document.write("最后更新时间: " + document.lastModified + "")</script>
+    </body>
 </html>
